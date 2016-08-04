@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>_8.4ContentDialog</title>
+    <link href="lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
+    <script src="lib/winjs-4.0.1/js/base.js"></script>
+    <script src="lib/winjs-4.0.1/js/ui.js"></script>
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="js/main.js"></script>
+</head>
+<body class="win-type-body">
+    <div class="box">
+        <button class="win-button showButton">Show</button>
+
+        <!--ContentDialog-->
+        <div data-win-control="WinJS.UI.ContentDialog" data-win-options="{
+             title: 'Main instruction',
+             primaryCommandText: 'button1',
+             secondaryCommandText: 'button2'
+        }">
+            Use the content area to present additional information helpful to understanding or using the dialog.
+            You can use this area to provide more detail or define terminology. Don't repeat the main instruction
+            with slightly different wording.
+        </div>
+    </div>
+</body>
+</html>
